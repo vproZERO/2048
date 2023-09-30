@@ -13,10 +13,17 @@ ul,ol{
     list-style: none;
 }
 
+h2{
+    margin-bottom: 30px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #f2f2f2;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
 }
 hr{
     width: 500px;
@@ -32,7 +39,7 @@ hr{
 }
 
 #board{
-    width: 379.5px;
+    width: 379.9px;
     height: 379.5px;
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
@@ -52,6 +59,30 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width: 390px) {
+    hr{
+        width: 300px;
+    }
+    #board{
+        width: 299.2px;
+        height: 400px;
+    }
+    .tile{
+        width: 72px;
+        height: 98px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 .x2{

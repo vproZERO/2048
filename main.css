@@ -40,10 +40,10 @@ hr{
 
 #board{
     width: 379.9px;
+    margin: 0 auto;
     height: 379.5px;
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -68,6 +68,7 @@ hr{
     #board{
         width: 299.2px;
         height: 400px;
+        margin: 0 auto;
     }
     .tile{
         width: 72px;
